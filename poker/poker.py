@@ -155,7 +155,6 @@ eric.showHand()
 print()
 table.river()
 input("Bet: ")
-clear()
 
 #Initialize hand + table
 final_hand = eric.final_hand()
