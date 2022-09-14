@@ -82,7 +82,6 @@ class Table:
         self.table = []
 
     def flop(self):
-        print("\n")
         print("Flop")
         print("-------------------")
         self.table.append(deck.drawCard())
@@ -236,6 +235,7 @@ def determine():
 determine()
 
 
-#TODO Betting
-#TODO Other Player
+#TODO Add betting functions
+#TODO Add players
 #TODO Determine best hand
+
