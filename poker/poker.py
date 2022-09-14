@@ -69,7 +69,7 @@ class Player:
 
     def final_hand(self):
         final_hand = []
-        final_hand = eric.hand + table.table
+        final_hand = self.hand + table.table
         # for cards in final_hand:
         #     cards.show()
         return final_hand
@@ -132,6 +132,7 @@ eric.draw(deck)
 print("Your hand")
 print()
 eric.showHand()
+input("Bet: ")
 
 #Flop
 table.flop()
@@ -156,10 +157,9 @@ print()
 table.river()
 input("Bet: ")
 clear()
+
+#Initialize hand + table
 final_hand = eric.final_hand()
-
-
-
 
 def evaluate(final_hand):
     suits = {}
